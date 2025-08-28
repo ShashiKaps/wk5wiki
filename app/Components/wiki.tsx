@@ -48,7 +48,7 @@ const WikiComponent =() => {
 
   return (
     <div style ={{ backgroundColor: 'white'}}>
-      <h2>Wikipedia Search Results for "Buffalo Bills"</h2>
+      <h2 style={{ color: 'black' }}>Wikipedia Search Results for "Buffalo Bills"</h2>
       {error && <p style={{ color: 'red' }}>Error: {error}</p>}
       <ul style={{ color: 'blue' }}>
         {pages.map((page) => (

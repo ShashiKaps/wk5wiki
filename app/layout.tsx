@@ -24,6 +24,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <title>Wiki Results </title>
+        <link 
+          href="https://fonts.googleapis.com/css2?family=Your+Font+Family&display=swap" 
+          rel="stylesheet"
+        />
+      </head>
       <body style={{ 
         backgroundColor: 'white',  // Change this color as needed
         margin: 0,
@@ -34,3 +41,5 @@ export default function RootLayout({
     </html>
   );
 }
+
+
