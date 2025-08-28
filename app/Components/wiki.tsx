@@ -20,6 +20,7 @@ interface WikiResponse {
   };
 }
 
+
 const WikiComponent =() => {
   const [pages, setPages] = useState<WikiPage[]>([]);
   const [error, setError] = useState<string | null>(null);
@@ -46,7 +47,7 @@ const WikiComponent =() => {
   }, []);
 
   return (
-    <div>
+    <div style ={{ backgroundColor: 'white'}}>
       <h2>Wikipedia Search Results for "Buffalo Bills"</h2>
       {error && <p style={{ color: 'red' }}>Error: {error}</p>}
       <ul style={{ color: 'blue' }}>
